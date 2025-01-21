@@ -1,0 +1,380 @@
+    1  /usr/local/bin/python /root/Desktop/host/sec2.py
+    2  /usr/local/bin/python /root/Desktop/host/sec2.py
+    3  /usr/local/bin/python /root/Desktop/host/sec2.py
+    4  /usr/local/bin/python /root/Desktop/host/sec2.py
+    5  /usr/local/bin/python /root/Desktop/host/sec2.py
+    6  /usr/local/bin/python /root/Desktop/host/sec2.py
+    7  /usr/bin/python3 /root/Desktop/host/sec2.py
+    8  /usr/bin/python3 /root/Desktop/host/sec2.py
+    9  /usr/bin/python3 /root/Desktop/host/sec2.py
+   10  /usr/bin/python3 /root/Desktop/host/sec2.py
+   11  /usr/bin/python3 /root/Desktop/host/sec2.py
+   12  /usr/bin/python3 /root/Desktop/host/sec2.py
+   13  /usr/bin/python3 /root/Desktop/host/sec2.py
+   14  /usr/bin/python3 /root/Desktop/host/sec2.py
+   15  /usr/bin/python3 /root/Desktop/host/sec2.py
+   16  cd
+   17  /root/Desktop/host
+   18  ls
+   19  ls
+   20  cd
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd root/Desktop/host
+   26  mkdir p1_basic_unix
+   27  cd /p1_basic_unix
+   28  cd p1_basic_unix
+   29  mkdir test
+   30  cd test
+   31  mkdir basic
+   32  cd basic
+   33  touch test_1.txt
+   34  ls
+   35  touch test_2.txt
+   36  touch test_3.txt
+   37  ls
+   38  cd ..
+   39  cd ..
+   40  echo "Natalie, January 17th 2025" >./test/basic/test_1.txt
+   41  cat ./test/basic/test_1.txt
+   42  ls -l
+   43  cat ./test/basic/test_2.txt
+   44  git remote -v
+   45  ls -l test_1.txt>test_2.txt
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd /p1_basic_unix
+   50  cd p1_basic_unix
+   51  ls
+   52  cd test
+   53  ls
+   54  cd basic
+   55  ls
+   56  cd ..
+   57  cd..
+   58  cd ..
+   59  cat ./test/basic/test_1.txt
+   60  cat ./test/basic/test_2.txt
+   61  ls -l ./test/basic/test_1.txt > ./test/basic/test_2.txt
+   62  cat ./test/basic/test_2.txt
+   63  chmod +x test_1.txt
+   64  chmod +x ./test/basic/test_1.txt
+   65  ls -l >> ./test/basic/test_2.txt
+   66  cat ./test/basic/test_2.txt
+   67  ls
+   68  cd /root
+   69  ls
+   70  cd ..
+   71  ls
+   72  cd /root/Desktop/host
+   73  ls
+   74  mv  P1_B.tar.gz root/Desktop/host/p1_basic_unix
+   75  mv  P1_B.tar.gz /root/Desktop/host/p1_basic_unix
+   76  ls
+   77  cd ./p1_basic_unix
+   78  ls
+   79  tar -xvzf "/p1_basic_unix/P1_B.tar.gz" -C /p1_basic_unix
+   80  tar -czvf P1_B.tar
+   81  tar -czvf P1_B.tar.gz
+   82  tar -xvzf P1_B.tar
+   83  tar -xvzf P1_B.tar.gz
+   84  ls
+   85  cd /P1_B
+   86  cd P1_B
+   87  cd ..
+   88  ls
+   89  cd P1_B
+   90  ls
+   91  mv example.sh /root/Desktop/host/p1_basic_unix
+   92  cd ..
+   93  ls
+   94  cd P1_B
+   95  mv ls
+   96  ls
+   97  mv example1.txt demo_1.txt
+   98  mv example2.txt demo_2.txt
+   99  ls
+  100  cd ..
+  101  mkdir src
+  102  ls
+  103  cd src
+  104  mkdir exe
+  105  ls
+  106  cd ..
+  107  mkdir cache
+  108  cd cache
+  109  mkdir data
+  110  cd data
+  111  mkdir tables
+  112  cd ..
+  113  cd ..
+  114  cd ..
+  115   ”/p1 basic unix/src/exe” ”/p1 basic unix/src/exe”1 basic unix/src/exe�
+  116  fuck
+  117  cp demo_1.txt /p1_basic_unix/src/exe
+  118  ls
+  119  cd p1_basic_unix
+  120  ls
+  121  cd P1_B
+  122  ls
+  123  cp demo_1.txt /root/Desktop/host/p1_basic_unix/src/exe
+  124  cp demo_2.txt /root/Desktop/host/p1_basic_unix/src/exe
+  125  cp demo_1.txt /root/Desktop/host/p1_basic_unix/cache/data/tables
+  126  cp demo_2.txt /root/Desktop/host/p1_basic_unix/cache/data/tables
+  127  cd /root/Desktop/host/p1_basic_unix/cache/data/tables
+  128  ls
+  129  cd /root/Desktop/host/p1_basic_unix/src/exe
+  130  ls
+  131  cd ..
+  132  cd ..
+  133  rmdir /root/Desktop/host/p1_basic_unix/P1_B
+  134  rm -r /root/Desktop/host/p1_basic_unix/P1_B
+  135  ls
+  136  ln -s /root/Desktop/host/p1_basic_unix/cache/data/tables/demo_1.txt demo_link
+  137  ls
+  138  cd demo_link
+  139  cat demo_link
+  140  cd demo_link
+  141  alias ll = 'ls -l'
+  142  alias ll='ls -l'
+  143  ll demo_link
+  144  cd src
+  145  mkdir utilities
+  146  grep "statistics" demo_1.txt | tee /p1_basic_unix/src/utilities/grep_stat_demo1.txt
+  147  grep "statistics" demo_1.txt | tee /p1_basic_unix/src/utilities/grep_stat_demo1.txt
+  148  grep "statistics" demo_1.txt | tee /root/Desktop/host/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+  149  cd ..
+  150  ls
+  151  cd cache
+  152  ls
+  153  cd /root/Desktop/host/p1_basic_link/src
+  154  cd: /root/Desktop/host/p1_basic_unix
+  155  cd /root/Desktop/host/p1_basic_
+  156  cd /root/Desktop/host/p1_basic_unix
+  157  ls
+  158  cd src
+  159  ls
+  160  cd ..
+  161  cd demo_link
+  162  cd cache
+  163  ls
+  164  cd data
+  165  ls
+  166  cd tables
+  167  ls
+  168  grep "statistics" demo_1.txt > /p1_basic_unix/src/utilities/grep_stat_demo1.txt
+  169  grep "statistics" demo_1.txt | tee /root/Desktop/host/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+  170  ls
+  171  cd /root/Desktop/host/p1_basic_unix/src/utilities
+  172  ls
+  173  cat grep_stat_demo1.txt
+  174  cat /root/Desktop/host/p1_basic_unix/cache/data/tables/demo_2.txt
+  175  cat /root/Desktop/host/p1_basic_unix/cache/data/tables/demo_1.txt
+  176  cd ..
+  177  cd ..
+  178  grep -r "statistics" /root/Desktop/host/p1_basic_unix | tee "/root/Desktop/host/p1_basic_unix/cache/images/grep_stat_all.txt"
+  179  find . -type f -name "*.txt" > /root/Desktop/host/p1_basic_unix/test_3.txt
+  180  ls
+  181  cat test_3.txt
+  182  find . -type f name ".txt" | xargs grep -H "statistics"
+  183  find . -type f -name ".txt" | xargs grep -H "statistics"
+  184  ls
+  185  find . -type f -name ".txt" | xargs grep -H "statistics" {} \;
+  186  find /path/to/start/directory -type f -name "*.txt" -exec grep -H "statistics" {} \; > search_results.txt
+  187  find . -type f -name "*.txt" -exec grep -H "statistics" {} \; > /root/Desktop/host/p1_basic_unix/test_4.txt
+  188  find . -type f -name "*.txt" -exec grep -H "statistics" {} \; > /root/Desktop/host/test_4.txt
+  189  cd ..
+  190  ls
+  191  cat test_4.txt
+  192  ls
+  193  cd p1_basic_unix
+  194  ls
+  195  cd src
+  196  ls
+  197  cd utilities
+  198  ls
+  199  cd ..
+  200  cd ..
+  201  mv grep_stat_all.txt ./cache/images
+  202  cd cache
+  203  ls
+  204  mkdir images
+  205  cd ..
+  206  mv grep_stat_all.txt ./cache/images
+  207  cd
+  208  find grep -r "statistics" /root/Desktop/host/p1_basic_unix | tee "/root/Desktop/host/p1_basic_unix/cache/images/grep_stat_all.txt"
+  209  grep "statistics" /root/Desktop/host/p1_basic_unix | tee "/root/Desktop/host/p1_basic_unix/cache/images/grep_stat_all.txt"
+  210  ls
+  211  cd
+  212  cd /root/Desktop/host
+  213  ls
+  214  cd p1_basic_unix
+  215  ls
+  216  grep -rH "statistics" . | tee "./p1_basic_unix/cache/images/grep_stat_all.txt"
+  217  cd cache
+  218  ls
+  219  cd ..
+  220  grep -r 'statistics' . | tee cache/images/grep_stat_all.txt
+  221  cd cache
+  222  ls
+  223  cd images
+  224  ls
+  225  cat grep_stat_all.txt
+  226  cd ..
+  227  ls
+  228  cd ..
+  229  ls
+  230  cd ..
+  231  tar -czvf p1_basic_unix.tar.gz /root/Desktop/host/p1_basic_unix
+  232  sha256sum p1_basic_unix.tar.gz
+  233  ls
+  234  mkdir Archive_P1
+  235  cd Archive_P1
+  236  git init
+  237  cp /root/Desktop/host/p1_basic.tar.gz /root/Desktop/host/Archive_P1
+  238  cp /root/Desktop/host/p1_basic_unix.tar.gz /root/Desktop/host/Archive_P1
+  239  ls
+  240  git branch
+  241  git status
+  242  git add .
+  243  git commit -m "what is happening"
+  244  git config cornnat
+  245  git config --global user.name cornnat
+  246  git commit -m "what is happening"
+  247  git config --global user.email nataliekim@ucsb.edu
+  248  git config --global user.name cornnat
+  249  git config --global user.name
+  250  git commit -m "Initial commit"
+  251  git log
+  252  git remote add origin https://github.com/cornnat/hw-1-p-1.git
+  253  git push -u origin main
+  254  git remote add origin https://github.com/cornnat/hw-1-p-1.git
+  255  git branch
+  256  git branch -m master main
+  257  git add .
+  258  git commit -m
+  259  git commit -m "intial commit"
+  260  git push -u origin main
+  261  git pull origin main
+  262  git commit -m 'Merge remote-tracking branch 'origin/main'"
+  263  git push origin main
+  264  git pull origin main
+  265  git commit -m "Merge remote-tracking branch 'origin/main'"
+  266  git push origin main
+  267  git remote -v
+  268  git init
+  269  ls
+  270  sha256sum1.tar.gz
+  271  history | tail -n 1000000 >> history.txt
+  272  ls
+  273  sha256sum p1_basic_unix.tar.gz
+  274  echo "(d50cbbd697319eac68f7ede83d84a725d7afa99d6861cd0205147b769d1e82bb  p1_basic_unix.tar.gz)" > sha256sum_problem_set1.txt
+  275  ls
+  276  git init
+  277  git branch
+  278  git push -u origin main
+  279  git remote -v
+  280  git branch
+  281  git status
+  282  git add .
+  283  git status
+  284  git commit -m "hw 1 kill me with a rock"
+  285  git push -u origin main
+  286  git remote remove origin
+  287  git remote add origin https://github.com/cornnat/hw1p1.git
+  288  git remote -v
+  289  git add .
+  290  git status
+  291  git commit -m "hello get the rock"
+  292  git commit -m "hello get the rock"
+  293  ls
+  294  git push -u origin main
+  295  git clone https://github.com/cornnat/NK-PHYS129.git
+  296  cd /
+  297  cd /root
+  298  cd /
+  299  ls
+  300  cd bin
+  301  ls
+  302  cd /root/Desktop
+  303  ls
+  304  cd /home
+  305  ls
+  306  cd
+  307  cd /p1_basic_unix
+  308  ls
+  309  cd root
+  310  cd /
+  311  ls
+  312  git config --global --list
+  313  git clone https://github.com/cornnat/P2.git
+  314  git remote -v
+  315  git clone https://github.com/cornnat/P2.git
+  316  git remote set-url origin https://github.com/cornnat/P2.git
+  317  git remote -v
+  318  git fetch origin
+  319  ls
+  320  cd p2
+  321  ls
+  322  cd problem1
+  323  ls
+  324  cd electron_scattering_data
+  325  ls
+  326  cd ..
+  327  rm ./*.bin
+  328  ls
+  329  echo "file_remove test" > test.txt
+  330  ls
+  331  rm ./test.txt
+  332  ls
+  333  echo "file_remove test" > test.bin
+  334  ls
+  335  nano ~/.bashrc
+  336  alias file_remove='function _file_remove(){ rm "$1"/*.bin; }; _file_remove'
+  337  source ~/.bashrc
+  338  echo $SHELL
+  339  nano ~/.bashrc
+  340  file_remove /root/Desktop/host/p2/problem1
+  341  ls
+  342  cd electron_scattering_data
+  343  ls
+  344  code file_remove_script.sh
+  345  echo "test test test" > test.bin
+  346  ls
+  347  mv file_remove_script.sh /root/Desktop/host/p2
+  348  mv test.bin /root/Desktop/host/p2
+  349  cd ..
+  350  cd ..
+  351  ls
+  352  chmod +x file_remove_script.sh
+  353  ./file_remove_script.sh /root/Desktop/host/p2
+  354  ls
+  355  file_remove .
+  356  ls
+  357  cd problem1
+  358  ls
+  359  cd ..
+  360  code sort_files.sh
+  361  ls
+  362  code sort_files_even_odd.sh
+  363  chmod +x sort_files_even_odd.sh
+  364  source sort_files_even_odd.sh
+  365  sort_files_even_odd ./problem1/electron_scattering_data
+  366  ls
+  367  cd problem 1
+  368  cd problem1
+  369  ls
+  370  cd electron_scattering_data
+  371  ls
+  372  cd even
+  373  ls
+  374  cd ..
+  375  cd ..
+  376  cd ..
+  377  ls
+  378  git add .
+  379  git add .
+  380  history | tail -n 100000 >> history.txt
